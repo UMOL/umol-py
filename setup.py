@@ -25,6 +25,7 @@ setup(
     install_requires=[
             "typing",
             "numpy",
-            "prody"
+            "prody",
+            "yaml"
         ],
     )
