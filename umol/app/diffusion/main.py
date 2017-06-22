@@ -1,2 +1,3 @@
-def main():
+def main(argd):
+    print(argd)
     return "diffusion coefficient"

@@ -18,14 +18,14 @@ setup(
     license="MIT/X11",
     packages=find_packages(),
     entry_points={
-            'console_scripts': [
-                    'plot = umol.main:main'
-                ],
-        },
+        'console_scripts': [
+                'plot = umol.main:main',
+        ],
+    },
     install_requires=[
             "typing",
             "numpy",
             "prody",
-            "yaml"
-        ],
-    )
+            "pyyaml"
+    ],
+)
